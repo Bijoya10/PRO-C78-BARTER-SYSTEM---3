@@ -201,7 +201,7 @@ export default class SignUpLoginScreen extends React.Component{
                     placeholder="password"
                     secureTextEntry={true}
                     style={styles.input}
-                    value={this.state.emailId}
+                    value={this.state.password}
                     onChangeText={(text)=>{
                         this.setState({
                             password:text
